@@ -1,0 +1,48 @@
+/* author @AdamSTITOU */
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../../Ressources/static/NunitoSans_10pt-Light.ttf")
+      format("truetype");
+  }
+
+main{
+    height: 80vh;
+} 
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+    background-color: #D9D9D9;
+    width: 40%;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    padding-left: 7%;
+    padding-top: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 13em;
+    grid-column-gap: 4em;
+  }
+  
+.nomClient{
+    border-radius: 15px 15px 0px 0px;
+    width: 75%;
+    text-align: center;
+    background-color: #FFE4B5;
+}
+
+.nomClient label{
+    font-size: 200%;
+}
+
+.nom button{
+    border-radius: 0px 0px 15px 15px;
+    background-color: #FFBB3E;
+    font-size: 200%;
+    width: 75%;
+    border: none;
+}

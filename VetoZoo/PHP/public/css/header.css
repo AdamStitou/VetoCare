@@ -1,0 +1,140 @@
+* {
+  --header_background_color: #683b8b;
+  --font_color: black;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 17%;
+  position: relative;
+  background-color: var(--header_background_color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: clip;
+  z-index: 2;
+}
+
+#header-login {
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  justify-self: flex-start;
+  flex-direction: column;
+  right: 1%;
+}
+
+.header-first-btn {
+  border: none;
+  height: 140%;
+  width: 120%;
+  border-radius: 12px 0 0 12px;
+  color: var(--font_color);
+  font-size: 140%;
+}
+
+.header-sec-btn {
+  border: none;
+  height: 150%;
+  width: 120%;
+  background-color: transparent;
+  color: white;
+  font-size: 140%;
+}
+
+#inscription-btn:hover{
+  text-decoration: underline;
+}
+
+
+.icon {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin: 5px;
+}
+
+#header-name {
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 5px;
+  font-size: 50px;
+}
+
+#header-name a{
+  text-decoration: none;
+  color: white;
+}
+
+#side-menu {
+  height: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.side-item {
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: var(--font_color);
+  margin-right: 10px;
+  font-size: 125%;
+  padding: 10px 15px;
+}
+
+#logo {
+  width: 250px;
+  height: 130px;
+  padding-top: 10px;
+  position: absolute;
+  right: -140px;
+  bottom: -80px;
+  background-color: white;
+  border-radius: 65% 50% 65% 50%;
+}
+
+#logo img {
+  top: 1%;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1000px) {
+  #side-menu {
+    flex-direction: column;
+  }
+
+  .side-item {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    width: 300px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #logo {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 45px;
+  }
+}

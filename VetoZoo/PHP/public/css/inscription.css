@@ -1,0 +1,103 @@
+* {
+  --background-color: #ffbb3e;
+}
+
+section{
+  background-image: url("public/img/Veto.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+fieldset {
+  border-color: var(--background-color);
+  background-color: #fff6e7;
+  width: 40vw;
+  border-radius: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% 0;
+  align-items: center;
+}
+
+#inscription {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 20vw;
+  margin-bottom: 3%;
+  background-color: var(--background-color);
+}
+
+.passwordContainer{
+  display: flex;
+  width: 100%;
+  max-height: min-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.passwordContainer > input{
+  margin-left: calc(1% + 20px);
+}
+
+.passwordContainer > i{
+  padding-left: 1%;
+  padding-bottom: 3%;
+  width: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+section #submit {
+  background-color: var(--background-color);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* css criteres de mdp */
+section {
+  position: relative;
+}
+.motDePasse.invalide {
+  border-color: red;
+}
+
+.motDePasse.succes {
+  border-color: #97df07;
+}
+
+.validator-criters {
+  bottom: 10%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+}
+.validator-criters span {
+  display: block;
+  color: black;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.validator-criters span.error {
+  color: #a70b0b;
+}
+
+.validator-criters span.succes {
+  color: #97df07;
+}
+
+/* fin criteres de mdp css */

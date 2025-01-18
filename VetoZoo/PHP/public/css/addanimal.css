@@ -1,0 +1,84 @@
+/* author @ImraneSAHAB */
+.form-container {
+    max-width: 800px;
+    margin-top: 200px auto;
+    margin: 100px; 
+    padding: 20px;
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px;
+}
+
+::backdrop {
+    background-color: grey;
+    opacity: 0.9; 
+}
+
+#form {
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto; 
+}
+
+#fermerbtn {
+    background-color: #a4a3c5;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s;
+    float: right;
+}
+
+#fermerbtn:hover {
+    transform: scale(1.1);
+    background-color: #7f7db8;
+}
+
+#addsub {
+    background-color: #FFBB3E;
+    color: black;
+    border: none;
+    padding: 10px 15px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group select {
+    padding: 5px;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

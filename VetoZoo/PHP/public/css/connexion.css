@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../../Ressources/static/NunitoSans_10pt-Light.ttf")
+    format("truetype");
+}
+
+*{
+  --background-color : #FFBB3E;
+}
+
+.fond{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+fieldset{
+  border-color: var(--background-color);
+  background-color: #FFF6E7;
+  border-radius: 9%;
+}
+
+#email
+{
+  background-color: var(--background-color);
+  width: 200px;
+  height: 20px;
+}
+
+
+
+#motDePasse {
+  background-color: var(--background-color);
+  width: 300px; 
+  height: 20px; 
+}
+
+
+
+/* Style pour centrer le formulaire */
+#co {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -50px;
+}
+
+#co input[type="email"],
+#co input[type="password"] {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+section input:focus{
+  outline: none;
+}
+
+#boutonConnexion{
+  margin-top: 1%;
+  width: 30%;
+  text-align: center;
+  color: #4F2459;
+}
+
+#co input[type="submit"]{
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+#Connexion{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+  
+  
