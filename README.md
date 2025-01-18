@@ -76,6 +76,3 @@ Sécurité
 
 VetoCare garantit un accès sécurisé grâce à une authentification par mot de passe pour tous les utilisateurs. Toutes les données sensibles sont protégées pour assurer la confidentialité des informations.
 
-Contributeurs
-
-[Votre Nom] : Développement backend et intégration frontend.
